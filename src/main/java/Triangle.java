@@ -59,4 +59,18 @@ public class Triangle {
       }
     }
 
+    public String typeOfTriangleMessage() {
+      String typeOfTriangle;
+      if (isEquilateral()) {
+        typeOfTriangle = "Triangle is equilateral";
+      } else if (isIsosceles()) {
+        typeOfTriangle = "Triangle is isosceles";
+      } else if (isScalene()) {
+        typeOfTriangle = "Triangle is scalene";
+      } else {
+        typeOfTriangle = "That's not a triangle!";
+      }
+      return typeOfTriangle;
+    }
+
 }

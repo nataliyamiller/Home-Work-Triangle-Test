@@ -87,6 +87,12 @@ public class TriangleTest {
     assertEquals(true, testTriangle.isScalene());
   }
 
+  @Test
+  public void Triangle_TypeofTriangleMessageReturns() {
+    Triangle testTriangle = new Triangle (2, 2, 2);
+    assertEquals("Triangle is equilateral", testTriangle.typeOfTriangleMessage());
+  }
+
 
 
 }
