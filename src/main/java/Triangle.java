@@ -47,4 +47,16 @@ public class Triangle {
       }
     }
 
+    public boolean isScalene() {
+      if(!isTriangle()) {
+        return false;
+      } else {
+        if (isEquilateral() || isIsosceles()) {
+          return false;
+        } else {
+          return true;
+        }
+      }
+    }
+
 }

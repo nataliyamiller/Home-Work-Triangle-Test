@@ -69,4 +69,24 @@ public class TriangleTest {
     assertEquals(false, testTriangle.isIsosceles());
   }
 
+  @Test
+  public void newTriangle_isScalene_false() {
+    Triangle testTriangle = new Triangle (2, 2, 8);
+    assertEquals(false, testTriangle.isScalene());
+  }
+
+  @Test
+  public void newTriangle_isAScalene_false() {
+    Triangle testTriangle = new Triangle (2, 2, 2);
+    assertEquals(false, testTriangle.isScalene());
+  }
+
+  @Test
+  public void newTriangle_isActuallyAScalene_true() {
+    Triangle testTriangle = new Triangle (2, 3, 4);
+    assertEquals(true, testTriangle.isScalene());
+  }
+
+
+
 }
