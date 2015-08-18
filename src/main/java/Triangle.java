@@ -34,4 +34,17 @@ public class Triangle {
       return false;
     }
   }
+
+    public boolean isIsosceles() {
+      if(!isTriangle()) {
+        return false;
+      } else {
+        if (isEquilateral()) {
+          return false;
+        } else {
+          return ((mLen == mWid) || (mLen == mHgt) || (mWid == mHgt));
+        }
+      }
+    }
+
 }

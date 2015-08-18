@@ -51,5 +51,22 @@ public class TriangleTest {
     assertEquals(false, testTriangle.isEquilateral());
   }
 
+  @Test
+  public void newTriangle_isIsoceles_true() {
+    Triangle testTriangle = new Triangle (2, 2, 3);
+    assertEquals(true, testTriangle.isIsosceles());
+  }
+
+  @Test
+  public void newTriangle_isIsoceles_false() {
+    Triangle testTriangle = new Triangle (2, 2, 2);
+    assertEquals(false, testTriangle.isIsosceles());
+  }
+
+  @Test
+  public void newTriangle_isAnIsoceles_false() {
+    Triangle testTriangle = new Triangle (2, 2, 8);
+    assertEquals(false, testTriangle.isIsosceles());
+  }
 
 }
