@@ -92,7 +92,5 @@ public class TriangleTest {
     Triangle testTriangle = new Triangle (2, 2, 2);
     assertEquals("Triangle is equilateral", testTriangle.typeOfTriangleMessage());
   }
-
-
-
+  
 }
