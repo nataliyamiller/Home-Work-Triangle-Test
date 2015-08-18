@@ -1,8 +1,10 @@
 <h1>Triangle Test!</h1>
+#if ($username) Welcome $username
+
 <h2>Enter the length of three sides of your triangle and I will tell you
 if your triangle is either equilateral, or isosceles, or scalene!</h2>
 
-<form action="/triangle">
+<form action="/result" method="post">
   <div class="form-group">
   <label for="length">Length</label>
   <input id="length" name="length" class="form-control" type="text">
@@ -20,3 +22,11 @@ if your triangle is either equilateral, or isosceles, or scalene!</h2>
 
 <button type="submit" class"btn">Go!</button>
 </form>
+#else $invalidUsername
+  <form action="/home" method="post">
+    <label for="username">Your name</label>
+    <input id="username" name="username" type="text">
+
+    <button type="submit">Submit name</button>
+    </form>
+#end

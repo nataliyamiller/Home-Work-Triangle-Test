@@ -1,3 +1,8 @@
+#if ($invalidUsername)
+</h1>$invalidUsername</h1>
+#else
+  <h1> Welcome $username</h1>
+
 <p><h3>Your triangle's length is $myTriangle.getLength()</h3></p>
 <p><h3>Your triangle's width is $myTriangle.getWidth()</h3></p>
 <p><h3>Your triangle's height is $myTriangle.getHeight()</h3></p>
@@ -10,4 +15,5 @@
   <p><h3>Triangle is Scalene</h3></p>
 #else
   <p><h3>That's not a triangle!</h3></p>
+#end
 #end
