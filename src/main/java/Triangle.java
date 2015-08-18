@@ -25,4 +25,13 @@ public class Triangle {
   public boolean isTriangle() {
     return ((mLen + mWid > mHgt) && (mLen + mHgt > mWid) && (mWid + mHgt > mLen));
   }
+
+  public boolean isEquilateral() {
+    if(isTriangle()) {
+      return ((mLen == mWid) && (mWid == mHgt));
+    }
+    else {
+      return false;
+    }
+  }
 }

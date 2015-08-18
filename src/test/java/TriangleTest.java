@@ -45,5 +45,11 @@ public class TriangleTest {
     assertEquals(true, testTriangle.isEquilateral());
   }
 
+  @Test
+  public void newTriangle_isEquilateral_false() {
+    Triangle testTriangle = new Triangle (3, 3, 4);
+    assertEquals(false, testTriangle.isEquilateral());
+  }
+
 
 }
