@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TriangleTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2015-08-18T05:17:05" hostname="Nataliyas-MacBook-Pro.local" time="0.004">
+<testsuite name="TriangleTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2015-08-18T05:45:19" hostname="Nataliyas-MacBook-Pro.local" time="0.004">
   <properties/>
   <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTest" time="0.0"/>
   <testcase name="newTriangle_isActuallyATriangle_false" classname="TriangleTest" time="0.0"/>
@@ -7,15 +7,15 @@
   <testcase name="newTriangle_isScalene_false" classname="TriangleTest" time="0.0"/>
   <testcase name="newTriangle_setsHeight" classname="TriangleTest" time="0.0"/>
   <testcase name="newTriangle_setsLength" classname="TriangleTest" time="0.0"/>
-  <testcase name="newTriangle_isIsoceles_true" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_isIsoceles_true" classname="TriangleTest" time="0.0"/>
   <testcase name="newTriangle_isEquilateral_false" classname="TriangleTest" time="0.0"/>
   <testcase name="newTriangle_isEquilateral_true" classname="TriangleTest" time="0.0"/>
   <testcase name="Triangle_TypeofTriangleMessageReturns" classname="TriangleTest" time="0.0"/>
   <testcase name="newTriangle_isActuallyATriangle_true" classname="TriangleTest" time="0.0"/>
-  <testcase name="newTriangle_setsWidth" classname="TriangleTest" time="0.0"/>
+  <testcase name="newTriangle_setsWidth" classname="TriangleTest" time="0.001"/>
   <testcase name="newTriangle_isAnIsoceles_false" classname="TriangleTest" time="0.0"/>
-  <testcase name="newTriangle_isAScalene_false" classname="TriangleTest" time="0.0"/>
-  <testcase name="newTriangle_isIsoceles_false" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_isAScalene_false" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_isIsoceles_false" classname="TriangleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

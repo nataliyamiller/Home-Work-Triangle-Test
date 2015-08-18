@@ -1,0 +1,13 @@
+<p><h3>Your triangle's length is $myTriangle.getLength()</h3></p>
+<p><h3>Your triangle's width is $myTriangle.getWidth()</h3></p>
+<p><h3>Your triangle's height is $myTriangle.getHeight()</h3></p>
+
+#if ($myTriangle.isEquilateral())
+  <p><h3>Triangle is Equilateral</h3></p>
+#elseif ($myTriangle.isIsosceles())
+  <p><h3>Triangle is Isosceles</h3></p>
+#elseif ($myTriangle.isScalene())
+  <p><h3>Triangle is Scalene</h3></p>
+#else
+  <p><h3>That's not a triangle!</h3></p>
+#end
